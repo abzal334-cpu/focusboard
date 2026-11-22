@@ -2,8 +2,8 @@
 
 A responsive, single-user task management dashboard built with **React + Vite**. Users can create, edit, delete and update tasks, search and filter them, see live statistics, browse a three-slide Focus Notes carousel, and keep their data across browser refreshes with `localStorage`.
 
-- **Live URL:** _add your Vercel/Netlify URL here_
-- **GitHub repository:** _add your repository URL here_
+- **Live URL:** https://focusboard-kappa.vercel.app
+- **GitHub repository:** https://github.com/abzal334-cpu/focusboard
 
 ## Screenshots
 
