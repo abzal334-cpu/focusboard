@@ -7,7 +7,7 @@
 ## Representative prompts (paraphrased)
 
 1. "Check my project and find out why the dashboard is not showing the correct content in the browser."
-2. "Update the code to meet the assignment requirements from the reference material."
+2. "Help me upload the project to GitHub and deploy it on Vercel."
 
 ## My contribution
 
