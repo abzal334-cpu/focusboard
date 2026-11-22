@@ -24,6 +24,9 @@
 - On a 390px screenshot the status tabs were cut off and had to be scrolled sideways. The mobile CSS was corrected so the tabs sit in a 2×2 grid.
 - The Lucide icon names were checked against the installed `lucide-react` package before use. Newer versions renamed some icons, for example `CheckCircle2` → `CircleCheck`.
 
-## My review
+## Review and verification
 
-<!-- Write 2–3 sentences in your own words: what you tested, what you changed yourself, and that you understand how the state, filters and localStorage work. -->
+- Most of the implementation was AI-generated. It was then reviewed and tested against the assignment requirements before submission.
+- 37 automated browser checks were run on the final code: 6 sample tasks load; create, edit and delete work, including the delete confirmation; blank or spaces-only titles are rejected; status changes update the statistics; search is case-insensitive; status tabs and the priority filter work together; the carousel moves forward and back, wraps around, and its dots work; data survives a page refresh; corrupted storage falls back to the sample data; and there's no horizontal scrolling at 768px and 390px.
+- After deployment, the live Vercel site (https://focusboard-kappa.vercel.app) was checked: the dashboard, statistics, carousel and create-task form all load and respond.
+- The state management approach (a single `tasks` array in `App.jsx`, values derived with `useMemo`, and `localStorage` sync through `useLocalStorage`) is explained in `README.md`.
